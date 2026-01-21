@@ -136,7 +136,6 @@ books = [
     { azonosito: 20, cim: "A 22-es csapdája", szerzo: "Joseph Heller", kiadasEve: 1961, kolcsonozve: false },
     { azonosito: 21, cim: "A nyomorultak", szerzo: "Victor Hugo", kiadasEve: 1862, kolcsonozve: false },
     { azonosito: 22, cim: "Száz év magány", szerzo: "Gabriel García Márquez", kiadasEve: 1967, kolcsonozve: false },
-    { azonosito: 23, cim: "Pál utcai fiúk", szerzo: "Molnár Ferenc", kiadasEve: 1907, kolcsonozve: true }
 ];
 window.borrowBook = borrowBook;
 window.returnBook = returnBook;
