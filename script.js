@@ -112,7 +112,6 @@ function render() {
         document.getElementById('authorFilter').value = szerzo;
     };
 }
-
 // Induló mintaadatok
 books = [
     { azonosito: 1, cim: "Egri csillagok", szerzo: "Gárdonyi Géza", kiadasEve: 1901, kolcsonozve: false },
@@ -139,7 +138,6 @@ books = [
     { azonosito: 22, cim: "Egri csillagok", szerzo: "Gárdonyi Géza", kiadasEve: 1901, kolcsonozve: false },
     { azonosito: 23, cim: "Pál utcai fiúk", szerzo: "Molnár Ferenc", kiadasEve: 1907, kolcsonozve: true }
 ];
-
 window.borrowBook = borrowBook;
 window.returnBook = returnBook;
 window.deleteBook = deleteBook;
